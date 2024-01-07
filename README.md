@@ -36,5 +36,7 @@ This repository currently covers the following topics:
 3. [Operators](operators.kt)
 4. [Conditionals](conditionals.kt)
 5. [Loops](loops.kt)
-
+6. [Functions](functions.kt)
+7. [Types of classes](classes.kt)
+   
 ---
