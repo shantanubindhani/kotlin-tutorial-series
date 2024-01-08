@@ -1,6 +1,14 @@
+echo -e  "\n.-''-..-''-..-''-..-''-..-''-..-''-..-''-.\n"
+
 if [ "$1" == "" ]
 then
-    echo "No source file specified!."
+    echo " +| No source file specified!."
 else
-    kotlinc "${1}.kt" -include-runtime -d output.jar && java -jar output.jar
+    if [ -e "$1.kt" ]
+    then 
+        kotlinc "${1}.kt" -include-runtime -d output.jar && java -jar output.jar
+    else 
+        echo " +| $1.kt source file NOT found!."
+    fi
 fi
+echo -e "\n'-..-''-..-''-..-''-..-''-..-''-..-''-..-'\n"

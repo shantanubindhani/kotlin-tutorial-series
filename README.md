@@ -12,7 +12,7 @@
 
 ## Compilation
 
-To compile Kotlin files, you can use the following command:
+To compile Kotlin files in `CLI-interface`, you can use the following command:
 
 ```bash
 $ kotlinc source-file-name.kt -include-runtime -d output-file-name.jar
@@ -22,10 +22,10 @@ $ java -jar output-file-name.jar
 Alternatively, you can use the provided shell script "compile.sh" by providing it the file name (without extension):
 
 ```bash
-$ ./compile.sh calc_app
+$ ./compile.sh file-name
 ```
 
-This will compile and run the `calc_app.kt` file.
+This will compile and run the `file-name.kt` file.
 
 ## Topics Covered in this Repo
 
@@ -38,5 +38,11 @@ This repository currently covers the following topics:
 5. [Loops](loops.kt)
 6. [Functions](functions.kt)
 7. [Types of classes](classes.kt)
-   
+8. OOP Concepts
+   * [Class : defination, constructors and access specifiers ](classDeepDive.kt)
+   * [Inheritance ](inheritance.kt)
+   * [polymorphism](polymorphism.kt)
+   * [Encapsulation](encapsulation.kt)
+   * [Abstraction](abstraction.kt)
+   * [Interfaces](interface.kt)
 ---
